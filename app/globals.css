@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #f5f7fa;
+  color: #23272f;
+}
+
+@layer components {
+  .hero-bg {
+    background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+  }
+  .section-bg {
+    @apply bg-white border-b border-gray-200;
+  }
+  .section-alt-bg {
+    @apply bg-gray-100 border-b border-gray-200;
+  }
+  .section-panel {
+    @apply max-w-2xl mx-auto bg-white rounded-2xl shadow p-10 mb-10 border border-gray-100;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-md p-6 transition-all duration-300 hover:scale-105 hover:shadow-xl border border-gray-200;
+  }
+  .btn {
+    @apply bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-5 rounded-lg transition-all duration-300 shadow hover:shadow-lg;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in-up {
+    animation: fadeInUp 1s ease-out;
+  }
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .section-padding {
+    @apply py-16 md:py-20;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

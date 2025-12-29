@@ -1,0 +1,49 @@
+{
+  "name": "Fuyad Hassan",
+  "title": "Full Stack Developer",
+  "about": "I am Fuyad, a passionate full-stack developer with expertise in modern web technologies. I love creating dynamic and user-friendly applications.",
+  "image": "https://scontent.fdac145-1.fna.fbcdn.net/v/t39.30808-6/534631203_2499078040467174_9149545545804754565_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHu76wxO4m2pX0IVG8FSBVVHiv62AIX7CgeK_rYAhfsKKLE2fAGE6BcucK1Z0urjMLkxeCPHj_gBIg1gQ_vjNgf&_nc_ohc=DSDUkNnUdy4Q7kNvwH1sbxm&_nc_oc=Adnq8UkmqkHslvv49f4LLc0n-fxsXJuSEBPIHqlpBCKG5xM69tgC49pXnJ0Lcnp_-8Y&_nc_zt=23&_nc_ht=scontent.fdac145-1.fna&_nc_gid=aADvRgbN0LiDvJ7lVXZT5A&oh=00_AfnQ_4sG543VBa5p6IqKo3AM4-YVXoatPuMYxLLYyIuG3w&oe=6956C393",
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Python",
+    "Tailwind CSS"
+  ],
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "Description of project 1",
+      "link": "https://example.com",
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop"
+    },
+    {
+      "title": "Project 2",
+      "description": "Description of project 2",
+      "link": "https://example2.com",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop"
+    }
+  ],
+  "contact": {
+    "email": "fuyadhassanswe@gmail.com",
+    "phone": "+8801909627780",
+    "linkedin": "https://linkedin.com/in/fuyad",
+    "github": "https://github.com/Fuyad22"
+  },
+  "blog": [
+    {
+      "title": "How to Build a Modern Portfolio with Next.js",
+      "date": "2025-12-01",
+      "summary": "A step-by-step guide to creating a dynamic, beautiful portfolio using Next.js and Tailwind CSS.",
+      "link": "https://example.com/blog/nextjs-portfolio"
+    },
+    {
+      "title": "My Favorite JavaScript Tricks",
+      "date": "2025-11-15",
+      "summary": "A collection of useful and lesser-known JavaScript tips for developers of all levels.",
+      "link": "https://example.com/blog/js-tricks"
+    }
+  ]
+}
